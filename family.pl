@@ -28,7 +28,7 @@ father(ram,luv).
 father(ram,kush).
 father(luv,david).
 father(luv,harka).
-
+father(luv,grk).
 
 grandfather(A,C):- father(A,B),father(B,C).
 grandmother(A,B):- grandfather(C,B) ,father(C,A).
